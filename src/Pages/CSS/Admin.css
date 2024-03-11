@@ -1,0 +1,28 @@
+/* .admin{
+    display: flex;
+}
+@media(max-width:800px){
+    .admin{
+        flex-direction: column;
+    }
+}
+ */
+
+
+ .admin {
+    display: flex;
+    justify-content: center; /* Centering the sidebar horizontally */
+}
+
+/* Add more styling for the Admin page if needed */
+
+
+.backg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Increased height */
+    background-image: url('./admin_login.jpg');
+    background-size: cover;
+    background-position: center;
+  }
