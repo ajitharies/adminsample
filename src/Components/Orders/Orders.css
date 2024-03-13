@@ -1,6 +1,6 @@
 /* OrderDetailsComponent.css */
 
-.order-details-container {
+/* .order-details-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -28,4 +28,37 @@
 
 .order-details-item p:nth-child(even) {
   color: #666;
+} */
+
+.order-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
+
+.order-details-list {
+  list-style: none;
+  padding: 0;
+}
+
+.order-details-item {
+  border: 1px solid #e0e0e0; /* Soft gray border */
+  border-radius: 8px; /* Slightly rounded corners */
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #ffffff; /* White background */
+}
+
+.order-details-item p {
+  margin: 5px 0;
+}
+
+.order-details-item p:first-child {
+  font-weight: bold;
+}
+
+.order-details-item p:nth-child(even) {
+  color: #757575; /* Medium gray color */
+}
+
